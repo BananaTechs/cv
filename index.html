@@ -5,78 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Thomas Hogben's Cosy Corner">
-    <title>Thomas's Page</title>
-    <link REL="SHORTCUT ICON" HREF="images/Profile.jpg">
+    <title>Thomas's CSS</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/connection.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td ALIGN=LEFT><img class="imgCircular" id="imgProfile" src="images/Profile.jpg" alt="Me"></td>
-            <td ALIGN=LEFT>
-                <h1>Thomas Hogben</h1>
-                <p><em>CS Major, <strong><a href="https://www.nus.edu.sg/" target="_blank" rel="noopener noreferrer">National University of Singapore</a></strong><br>Math second Major</em></p>
-                <p>I am a student very much enjoying exploring the breadth of computer science. Sometimes, I do other cool things.</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Qualifications</h3>
-    <ul>
-        <li>A levels (87.5)</li>
-        <li>ORD cert</li>
-        <li>Unus Annus fan</li>
-    </ul>
-    <h3><a href="modules.html" target="_blank" rel="noopener noreferrer">Module Reviews</a></h3>
-    <hr>
-    <h3>Professional Experience</h3>
-    <table cellspacing="7">
-        <thead>
-            <tr><th>Date</th><th>Job</th></tr>
-        </thead>
-        <tbody>
-            <tr><td>2020</td><td><strong>DHL</strong> Logistics Assistant, Part Time</td></tr>
-            <tr><td>2018 - 2019</td><td><strong>8SIR</strong> Security Trooper</td></tr>
-        </tbody>
-    </table>
-    <br>Impressive, innit.
-    <hr>
-    <h3>Skills</h3>
-    <table>
-        <tr>
-            <td>
-                <table cellspacing="10">
-                    <tr><td>Object-Oriented Programming</td><td>⭐⭐⭐⭐</td></tr>
-                    <tr><td>Functional Programming</td><td>⭐⭐⭐</td></tr>
-                    <tr><td>Algorithms</td><td>⭐⭐</td></tr>
-                    <tr><td>Web Development</td><td>⭐</td></tr>
-                    <tr><td>Watching Unus Annus</td><td>⭐⭐⭐⭐⭐</td></tr>
-                </table>
-            </td>
-            <td>
-                <table cellspacing="10">
-                    <tr><td>Rollerblading</td><td>⭐</td></tr>
-                    <tr><td>Calisthenics</td><td>⭐</td></tr>
-                    <tr><td>Leatherworking</td><td>⭐⭐</td></tr>
-                    <tr><td>Guitar</td><td>⭐⭐⭐</td></tr>
-                    <tr><td>Origami</td><td>⭐⭐⭐⭐</td></tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Things I do</h3>
-    <ul>
-        <li>CS (duh)</li>
-        <li>Leatherworking</li>
-        <li>Guitar</li>
-        <li>Piano (deprecated)</li>
-        <li>Rollerblading</li>
-        <li>Calisthenics</li>
-        <li>Origami (deprecated)</li>
-    </ul>
-    <br>
-    <em><a href="contact.html" target="_blank" rel="noopener noreferrer">Contact Me</a></em>
+    <div class="containerTop">
+        <img id="imgCloudTop" src="images/cloud.png" alt="">
+        <h1>I'm Thomas.</h1>
+        <h2>A CS Major.</h2>
+        <img id="imgCloudBottom" src="images/cloud.png" alt="">
+        <img src="images/mountain.png" alt="">
+    </div>
+
+
+    <div class="containerMiddle">
+      <div class="profile">
+        <img class="circle-img" src="images/Thomas.jpg" alt="thomas-img">
+        <h2>Hello.</h2>
+        <p class="intro">I am a student very much enjoying exploring the breadth of computer science. Sometimes, I do other cool things.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="graph-img" src="images/connection.png" alt="graph-img">
+          <h3>Computer Science</h3>
+          <p>A continual work in progress. I have an interest in theory, but also in developing pretty things like indie games and webpages. Stay tuned for many cool things to come.</p>
+        </div>
+        <div class="skill-row">
+          <img class="guitar-img" src="images/bass-guitar.png" alt="guitar-img">
+          <h3>Music</h3>
+          <p>I dabble in guitar and songwriting. I found my passion when I joined the guitar ensemble in school and have since made it my number one procrastination activity. Also stay tuned!</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>I've no idea why, but I'd love to hear from you.</h3>
+        <p>If you wanna chat or send me a cool chord voicing, click the link below!</p>
+        <a class="btn-contact" href="mailto:tehogben@gmail.com">Contact Me</a>
+      </div>
+    </div>
+      
+      
+      <div class="containerBottom">
+        <a class="footer-link" href="https://github.com/BananaTechs">GitHub</a>
+        <a class="footer-link" href="https://www.linkedin.com/in/thomas-hogben-b096241b6/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <p class="copyright">© 2021 Thomas Hogben. Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.</p>
+      </div>
+      
 </body>
 </html>
